@@ -68,7 +68,7 @@ function nextSequence() {
   playsound(randomChosenColour);
   level++;
   $("h1").html("level " + level);
-  $("h3").html("remember the previous pattern");
+  $("h2").html("remember the previous pattern");
 }
 
 function playsound(name) {
