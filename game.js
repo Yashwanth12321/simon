@@ -27,7 +27,7 @@ $(".btn").on("click",function () {
 
 function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
-    console.log("sucess");
+    
     if (userClickedPattern.length === gamePattern.length) {
       //5. Call nextSequence() after a 1000 millisecond delay.
       setTimeout(function () {
